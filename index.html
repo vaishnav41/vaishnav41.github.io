@@ -1,1 +1,285 @@
-hiiiiiiiiiii
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.png" type="image/icon type" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vaishnav - portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(1, 1, 65);
+        color: white;
+        font-family: "poppins";
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 6vw;
+        background-color: rgb(24, 24, 73);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 3vw;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(143, 143, 254);
+      }
+      main hr {
+        border: 0;
+        height: 1.2px;
+        background: rgb(219, 131, 219);
+        margin: 5vh 5vw;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .right {
+        font-size: 1rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 7vw 0;
+      }
+      .firstSection > div {
+        width: 30vw;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .leftSection .buttons {
+        padding: 5vw 0;
+      }
+      .leftSection .btn {
+        font-size: 1.2rem;
+        font: bold;
+        background-color: rgb(26, 26, 99);
+        color: white;
+        border: 2px solid white;
+        border-radius: 0.6vw;
+        padding: 1.5vw;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(219, 131, 219);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(219, 131, 219);
+      }
+      .secondSection {
+        max-width: 80vw;
+        height: 40vw;
+        margin: auto;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        display: flex;
+        height: 2px;
+        width: 80vw;
+        margin: 5vw 0;
+        background-color: white;
+      }
+      .secondSection .vertical {
+        background-color: white;
+        height: 6vw;
+        width: 2px;
+        margin: 0 6vw;
+      }
+      .image-top {
+        width: 2vw;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 5vw;
+        width: 8vw;
+        font-size: 0.8vw;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 5vw;
+        color: gray;
+        width: 8vw;
+        font-size: 0.6vw;
+      }
+      footer {
+        background-color: rgb(7, 7, 36);
+      }
+      .footer {
+        display: flex;
+        padding: 1vw 10vw;
+        justify-content: space-evenly;
+        font-size: 1vw;
+      }
+      .footer .ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 15vw;
+      }
+      .footer-rights {
+        color: rgb(90, 83, 140);
+        text-align: center;
+        padding: 2vw 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vaishnav's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/"> About</a></li>
+            <li><a href="/"> Services</a></li>
+            <li><a href="/"> Projects</a></li>
+            <li><a href="/"> Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi I am <span class="purple">Vaishnav</span>
+          <div>And I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML Developer(2020-2021)</div>
+            <div class="vertical-desc">
+              I have worked as a HTML developer in the years of 2020 to 2021 at
+              kochi
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="css.png" alt="" />
+            <div class="vertical-title">HTML Developer(2020-2021)</div>
+            <div class="vertical-desc">
+              I have worked as a HTML developer in the years of 2020 to 2021 at
+              kochi
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="javascript.png" alt="" />
+            <div class="vertical-title">HTML Developer(2020-2021)</div>
+            <div class="vertical-desc">
+              I have worked as a HTML developer in the years of 2020 to 2021 at
+              kochi
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="reactjs.png" alt="" />
+            <div class="vertical-title">HTML Developer(2020-2021)</div>
+            <div class="vertical-desc">
+              I have worked as a HTML developer in the years of 2020 to 2021 at
+              kochi
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="java.png" alt="" />
+            <div class="vertical-title">HTML Developer(2020-2021)</div>
+            <div class="vertical-desc">
+              I have worked as a HTML developer in the years of 2020 to 2021 at
+              kochi
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">HTML Developer(2020-2021)</div>
+            <div class="vertical-desc">
+              I have worked as a HTML developer in the years of 2020 to 2021 at
+              kochi
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Vaishnav's Developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        copyright &#169; vilayilvaishnav.me | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Designer", "Web Developer", "Software Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
